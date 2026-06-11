@@ -10,12 +10,12 @@ uptime
 echo ""
 
 # TO CHECK THE DISK USAGE BY FILES
-echo " === DISK USAGE CHECK ==="
+echo " --- Disk Usage ---"
 df -h | grep -E "/dev/"
 echo ""
 
 # TO CHECK THE MEMORY USAGE USED , FREE etc 
-echo " === MEMORY USAGE CHECK == "
+echo " --- Memory Usage --- "
 free -h
 
 echo ""
